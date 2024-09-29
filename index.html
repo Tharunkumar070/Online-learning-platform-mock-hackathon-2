@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Learning Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .course-card {
+            border-radius: 5px;
+            padding: 20px;
+            color: white;
+            margin-bottom: 20px;
+            flex: 0 0 48%;
+            box-sizing: border-box;
+        }
+        .course-card h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .enroll-btn {
+            background-color: #fff;
+            color: black;
+            padding: 10px;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .enroll-btn:hover {
+            background-color: #ddd;
+        }
+        .web-development { background-color: #007bff; }
+        .data-science { background-color: #28a745; }
+        .ai { background-color: #ff5722; }
+        .cybersecurity { background-color: #6f42c1; }
+        .machine-learning { background-color: #ffc107; color: black; }
+        .blockchain { background-color: #000000; }
+        .cloud-computing { background-color: #17a2b8; }
+        .devops { background-color: #f39c12; }
+        .iot { background-color: #3498db; }
+        .video-container {
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .video-container video {
+            width: 100%;
+            max-width: 400px; /* Reduce the video size */
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .quote {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            background-color: #ffffcc;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .quote-in-video {
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 1.2em;
+            padding: 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            width: 80%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Online Learning Platform</h1>
+</header>
+
+<div class="container">
+    <div class="course-card web-development">
+        <h3>Course Title: Introduction to Web Development</h3>
+        <p>Instructor: Tharun</p>
+        <p>Duration: 10 hours</p>
+        <button class="enroll-btn">Enroll Now</button>
+    </div>
+
+    <div class="course-card data-science">
+        <h3>Course Title: Data Science Basics</h3>
+        <p>Instructor: Kumar</p>
+        <p>Duration: 12 hours</p>
+        <button class="enroll-btn">Enroll Now</button>
+    </div>
+
+    <div class="course-card ai">
+        <h3>Course Title: Introduction to Artificial Intelligence</h3>
+        <p>Instructor: Madhumitha</p>
+        <p>Duration: 15 hours</p>
+        <button class="enroll-btn">Enroll Now</button>
+    </div>
+
+    <div class="course-card cybersecurity">
+        <h3>Course Title: Cybersecurity Essentials</h3>
+        <p>Instructor: Shwetha</p>
+        <p>Duration: 8 hours</p>
+        <button class="enroll-btn">Enroll Now</button>
+    </div>
+
+    <div class="course-card machine-learning">
+        <h3>Course Title: Machine Learning Fundamentals</h3>
+        <p>Instructor: Rohith</p>
+        <p>Duration: 20 hours</p>
+        <button class="enroll-btn">Enroll Now</button>
+    </div>
+</div>
+
+<div class="video-container">
+    <h2>Course Video</h2>
+    <video controls poster="Screenshot%202024-09-29%20125102.png">
+        <source src="your-video-file.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="quote-in-video">
+        "Learning is not attained by chance, it must be sought for with ardor and attended to with diligence." – Abigail Adams
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Online Learning Platform. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
